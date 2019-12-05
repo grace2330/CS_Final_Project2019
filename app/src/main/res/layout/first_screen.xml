@@ -79,11 +79,11 @@
 
     <EditText
         android:id="@+id/lowerNumText"
-        android:layout_width="45dp"
-        android:layout_height="53dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginRight="31dp"
-        android:layout_marginBottom="136dp"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="140dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/pwText"
@@ -91,8 +91,8 @@
 
     <EditText
         android:id="@+id/higherNumText"
-        android:layout_width="44dp"
-        android:layout_height="39dp"
+        android:layout_width="46dp"
+        android:layout_height="34dp"
         android:layout_marginTop="339dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
@@ -122,5 +122,23 @@
         android:text="View"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:text="Generate Your Random Password"
+        android:textColor="#160E0E"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
